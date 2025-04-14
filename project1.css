@@ -1,0 +1,95 @@
+/* Base styling for page body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white; /* Required white background */
+  font-family: Georgia, Garamond, serif; /* Required serif font */
+  font-size: 14pt; /* Required text size */
+  color: #0033a0; /* Body text color */
+}
+
+/* Header/logo styling */
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header figure {
+  margin: 0 auto;
+  padding: 0;
+}
+
+header img {
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Navigation styling */
+nav ul {
+  margin: 10px 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FFD700; /* Link color matches heading color */
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main heading (h1) styling */
+h1 {
+  font-family: 'Century Gothic', 'Futura', Verdana, sans-serif; /* Required fonts */
+  font-size: 28pt; /* Required size */
+  font-weight: bold; /* Required bold */
+  text-align: center; /* Required center alignment */
+  text-decoration: underline; /* Required underline */
+  background-color: #0073cf; /* Your choice */
+  color: #FFD700; /* Your choice */
+  padding: 10px 0;
+}
+
+/* Other headings (h2) styling */
+h2 {
+  font-family: 'Century Gothic', 'Futura', Verdana, sans-serif;
+  font-size: 20pt;
+  font-weight: normal;
+  text-align: left;
+  text-decoration: underline;
+  background-color: #0073cf;
+  color: #FFD700;
+  padding: 6px;
+  margin-top: 1.5em;
+}
+
+/* Image formatting */
+main img {
+  max-width: 80%;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #0073cf;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #0073cf;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #FFD700;
+}
